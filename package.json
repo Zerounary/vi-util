@@ -4,7 +4,7 @@
   "description": "string utils",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha --require babel-register"
+    "test": "mocha test/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Zerounary/vi-util/issues"
   },
-  "homepage": "https://github.com/Zerounary/vi-util#readme"
+  "homepage": "https://github.com/Zerounary/vi-util#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.1"
+  }
 }
