@@ -4,7 +4,7 @@
   "description": "string utils",
   "main": "src/index.js",
   "scripts": {
-    "test": "nyc --reporter=html --reporter=lcov --reporter=text-summary mocha",
+    "test": "nyc --reporter=html --reporter=lcov --reporter=text mocha",
     "check-coverage": "nyc check-coverage",
     "semantic-release": "semantic-release --branches main",
     "commit": "git-cz -a"
