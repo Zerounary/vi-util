@@ -4,8 +4,7 @@
   "description": "string utils",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha test/index.test.js",
-    "test:coverage": "nyc --reporter=html --reporter=lcov --reporter=text-summary mocha",
+    "test": "nyc --reporter=html --reporter=lcov --reporter=text-summary mocha",
     "check-coverage": "nyc check-coverage",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "semantic-release": "semantic-release --branches main",
@@ -39,7 +38,7 @@
   },
   "config": {
     "ghooks": {
-      "pre-commit": "npm run test:coverage && npm run check-coverage"
+      "pre-commit": "npm run test && npm run check-coverage"
     }
   }
 }
