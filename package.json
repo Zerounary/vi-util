@@ -1,0 +1,23 @@
+{
+  "name": "vi-util",
+  "version": "1.0.0",
+  "description": "string utils",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --require babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zerounary/vi-util.git"
+  },
+  "keywords": [
+    "string",
+    "utils"
+  ],
+  "author": "Zerounary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zerounary/vi-util/issues"
+  },
+  "homepage": "https://github.com/Zerounary/vi-util#readme"
+}
