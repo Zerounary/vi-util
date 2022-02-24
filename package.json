@@ -1,6 +1,6 @@
 {
   "name": "vi-util",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "string utils",
   "main": "src/index.js",
   "scripts": {
