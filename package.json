@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "nyc --reporter=html --reporter=lcov --reporter=text mocha",
-    "build": "rollup -c",
+    "build": "rollup -c ",
     "check-coverage": "nyc check-coverage",
     "semantic-release": "semantic-release --branches main",
     "commit": "git-cz -a"
