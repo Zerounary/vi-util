@@ -39,7 +39,7 @@
     "nyc": "^15.1.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.68.0",
-    "rollup-plugin-uglify": "^5.0.2",
+    "rollup-plugin-terser": "^7.0.2",
     "semantic-release": "^19.0.2"
   },
   "config": {
@@ -52,8 +52,5 @@
       "es2015",
       "stage-2"
     ]
-  },
-  "dependencies": {
-    "rollup-plugin-filesize": "^9.1.2"
   }
 }

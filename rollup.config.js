@@ -1,5 +1,4 @@
-import filesize from "rollup-plugin-filesize";
-import {uglify} from "rollup-plugin-uglify";
+import {uglify} from "rollup-plugin-terser";
 
 export default {
   input: "src/index.js",
@@ -18,12 +17,6 @@ export default {
     },
   ],
   plugins: [
-    // terser()
-    uglify({
-      compress: {
-        drop_console: true,
-      },
-    }),
-    filesize()
+    terser()
   ],
 };
